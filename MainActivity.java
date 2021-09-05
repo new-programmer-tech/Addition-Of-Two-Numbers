@@ -1,9 +1,6 @@
-package com.example.addition;
-
-
+// package com.example.addition;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -31,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(getApplicationContext(),"Hello Javatpoint",Toast.LENGTH_SHORT).show();
-//                int sum;
                 int sum = Integer.parseInt(n1.getText().toString()) + Integer.parseInt(n2.getText().toString());
                 text.setText("the sum is : " + sum);
 
